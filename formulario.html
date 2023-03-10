@@ -1,0 +1,48 @@
+<!--
+Curso de Engenharia de Software - UniEVANGÉLICA 
+Disciplina de Programação Web 
+Dev: GUSTAVO MORAIS SOUSA 
+10/03/2023 
+-->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Formulário de controle de estoque</title>
+</head>
+
+<body>
+    <h1>Controle de Estoque</h1>
+    <form action="processa_form.php" method="POST">
+        <label for="produto">Produto:</label>
+        <input type="text" id="produto" name="produto" required>
+
+        <label for="categoria">Categoria:</label>
+        <select id="categoria" name="categoria">
+            <option value="">Selecione</option>
+            <option value="alimentos">Alimentos</option>
+            <option value="eletronicos">Eletrônicos</option>
+            <option value="vestuario">Vestuário</option>
+            <option value="moveis">Móveis</option>
+        </select>
+
+        <label for="quantidade">Quantidade:</label>
+        <input type="number" id="quantidade" name="quantidade" required>
+
+        <label for="preco">Preço:</label>
+        <input type="number" id="preco" name="preco" step="0.01" required>
+
+        <label for="fornecedor">Fornecedor:</label>
+        <input type="text" id="fornecedor" name="fornecedor">
+
+        <label for="data_entrada">Data de entrada:</label>
+        <input type="date" id="data_entrada" name="data_entrada" required>
+
+        <label for="data_validade">Data de validade:</label>
+        <input type="date" id="data_validade" name="data_validade">
+
+        <input type="submit" value="Cadastrar">
+    </form>
+</body>
+
+</html>
