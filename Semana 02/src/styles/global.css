@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    --color-title: #15183a;
+    --color-title-hover: #6065f4;
+}
+
+#objectMenu{
+    height: 45px;
+}
+
+body{
+    background-color: #fcfcfc;
+    padding: 10px;
+}
+
+h1, h2, h3{
+    color: var(--color-title);
+}
+
+p, li{
+    font-weight: 400;
+    font-size: 14;
+}
+
+p{
+    text-indent: 20px;
+    text-align: justify;
+}

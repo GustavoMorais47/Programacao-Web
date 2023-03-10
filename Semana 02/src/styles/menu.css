@@ -1,0 +1,43 @@
+body{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#menu{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+#tema{
+    font-family: 'Comfortaa', cursive;
+    color: var(--color-title);
+    font-size: 30px;
+    user-select: none;
+    margin: 0;
+    text-decoration: none;
+}
+#tema:hover{
+    transition: 0.5s;
+    color: var(--color-title-hover);
+}
+
+#itens{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    list-style: none;
+}
+
+#item{
+    text-decoration: none;
+}
+
+#item:hover{
+    transition: 0.5s;
+    font-weight: bold;
+}
